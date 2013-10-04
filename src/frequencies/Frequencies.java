@@ -6,7 +6,7 @@ public class Frequencies {
 
     public static void main(String[] args) {
         HashMap<Integer,Integer> map = new HashMap<>();
-        int [] vector = {0,1};
+        int [] vector = {0,1,0,2,0,3,0,4,0,1,0,5,0,6,0,1,0,2,7,3,4,5,6,7,8,9};
         int maxNumber=0;
         int maxTimes=0;
         
