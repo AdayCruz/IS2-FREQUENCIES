@@ -13,7 +13,8 @@ public class Frequencies {
         
         for (int i : vector) {
             if (map.containsKey(i)) {
-                map.put(i, ++(map.get(i)));
+                number=map.get(i);
+                map.put(i, ++number);
             }else map.put(i, 1);
         }
         
